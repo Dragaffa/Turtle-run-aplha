@@ -14,10 +14,6 @@ class scene extends Phaser.Scene {
 
     create() {
 
-
-
-
-
         const backgroundImage = this.add.image(0, 0, 'background').setOrigin(0, 0);
         backgroundImage.setScale(1, 0.8);
         const map = this.make.tilemap({key: 'map'});
